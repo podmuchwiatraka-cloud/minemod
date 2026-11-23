@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "minemod",
+  "version": "${version}",
+  "name": "MineMod",
+  "description": "Kosmetyki (peleryny, plecaki) i narzedzia FPS w szaro-bialym stylu.",
+  "authors": ["MineMod"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.minemod.MineModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
